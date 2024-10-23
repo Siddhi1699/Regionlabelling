@@ -8,11 +8,9 @@ Welcome to the AQI Data Labeling and Visualization Project! This project involve
 - frontend/: Contains the client-side code and related files.
 - Pictorial AQI Project Flow.pdf: A visual overview of the project workflow.
 - Flowchart.pdf: A detailed flowchart of the project processes.
-- Regionlabeling Final presentation.pptx: Presentation slides summarizing the project.
 - Preprocessing flowchart.pdf: Flowchart depicting the preprocessing steps for data.
 - UI design basic.pdf: Basic UI design document for the application.
-- Preprocessing documentation.pdf: Detailed documentation on data preprocessing.
-- Task Assignment.doc: Details the tasks completed by the team members.
+- report.pdf: Detailed documentation of the project.
 
  Getting Started
 
@@ -53,12 +51,4 @@ Ensure you have the following installed:
 
    The frontend application will start and be accessible at `http://localhost:5173/`.
 
- Documentation
 
-- Pictorial AQI Project Flow.pdf: Provides an overview of the project workflow.
-- Flowchart.pdf: Details the process flow of the project.
-- Regionlabeling Final presentation.pptx: Summarizes the project findings and features.
-- Preprocessing flowchart.pdf: Illustrates the steps involved in data preprocessing.
-- UI design basic.pdf: Shows the basic design layout of the user interface.
-- Preprocessing documentation.pdf: Contains detailed information on data preprocessing procedures.
-- Task Assignment.doc: Shows Individual contribution to the final Product.
