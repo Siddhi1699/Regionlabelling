@@ -1,0 +1,128 @@
+.circle {
+  width: 190px; /* Circle size */
+  height: 190px; /* Circle size */
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5); /* Increased shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  position: relative; /* For pseudo-element positioning */
+  overflow: hidden; /* Hides any overflow for pseudo-elements */
+  border: 4px solid rgba(255, 255, 255, 0.2); /* Softer border effect */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* New font for text inside circles */
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1); /* Subtle overlay effect */
+  transition: background 0.3s ease;
+}
+
+.circle:hover::before {
+  background: rgba(255, 255, 255, 0.3); /* Enhanced overlay effect on hover */
+}
+
+.circle:hover {
+  transform: scale(1.15); /* Increased zoom effect on hover */
+}
+  /* Fluorescent gradient backgrounds */
+  .green {
+    background: linear-gradient(
+      135deg,
+      #00ff00,
+      #00cc00
+    ); /* Fluorescent green gradient */
+  }
+
+  .yellow {
+    background: linear-gradient(
+      135deg,
+      #ffff00,
+      #e5e500
+    ); /* Fluorescent yellow gradient */
+    color: black; /* Text color adjusted for visibility */
+  }
+
+  .orange {
+    background: linear-gradient(
+      135deg,
+      #ff6600,
+      #e65c00
+    ); /* Fluorescent orange gradient */
+  }
+
+  .red {
+    background: linear-gradient(
+      135deg,
+      #ff0000,
+      #cc0000
+    ); /* Fluorescent red gradient */
+  }
+
+  .purple {
+    background: linear-gradient(
+      135deg,
+      #cc00ff,
+      #9900cc
+    ); /* Fluorescent purple gradient */
+  }
+
+  .maroon {
+    background: linear-gradient(
+      135deg,
+      #800000,
+      #660000
+    ); /* Fluorescent maroon gradient */
+  }
+
+  /* Font and size adjustments for text inside circles */
+  .category-number {
+    font-weight: bold;
+    font-size: 1.2em; /* Increased font size for category number */
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  }
+
+  .category-name {
+    font-weight: bold;
+    font-size: 1rem; /* Increased font size for category name */
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  }
+
+  .category-description {
+    font-size: 0.8rem; /* Adjusted font size for category description */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+  }
+
+  /* Styling for the Start button */
+  .start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #2226ff; /* Bright background color */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+    margin-top: 70px; /* Space above the button */
+  }
+
+  .start-button:hover {
+    background-color: #191ce6; /* Darker background color on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+}
