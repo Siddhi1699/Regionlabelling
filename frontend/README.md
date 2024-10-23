@@ -1,0 +1,5 @@
+- Install NodeJs
+- move to the project folder in terminal
+- Run "npm i"
+- Run "npm run dev"
+- Open"http://127.0.0.1:5173/"
